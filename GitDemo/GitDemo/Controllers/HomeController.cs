@@ -33,5 +33,12 @@ namespace GitDemo.Controllers
 
             return View();
         }
+
+        public ActionResult ContactAgain1()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
